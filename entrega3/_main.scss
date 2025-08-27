@@ -1,0 +1,21 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: $bg-light;
+  color: $text-color;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.site-main {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: $border-radius;
+
+  img {
+    max-width: 100%;
+    border-radius: $border-radius;
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,20 @@
+@mixin grid($columns) {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+  gap: 20px;
+}
+
+@mixin button-style($bg, $hover-bg) {
+  background-color: $bg;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color $transition;
+
+  &:hover {
+    background-color: $hover-bg;
+  }
+}

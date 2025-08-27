@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  .grid-2,
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .flex-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .site-header h1 {
+    font-size: 22px;
+  }
+
+  body {
+    padding: 10px;
+  }
+}
